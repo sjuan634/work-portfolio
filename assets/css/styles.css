@@ -1,0 +1,12 @@
+body {
+  background-color: aliceblue;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-item {
+  display: inline;
+}
