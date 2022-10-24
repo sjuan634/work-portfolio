@@ -13,6 +13,7 @@ body {
   background-color: aliceblue;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   height: 98vh;
+  width: 98vw;
 }
 
 header {
@@ -55,7 +56,15 @@ h2 {
 
 h3 {
   padding: .25em;
-  float: ;
+  position: relative;
+  top: 8em;
+  background-color: var(--dark-color);
+  width: fit-content;
+}
+
+h3 a {
+  text-decoration: none;
+  color: var(--light-color);
 }
 
 ul li {
@@ -86,11 +95,16 @@ section {
 
 article {
   margin: 0 .5em 0 0;
+  opacity: .5;
 }
 
-img {
-  width: 200px;
-  height: 200px;
+.project-image {
+  width: 15em;
+  height: 10em;
+}
+
+article:hover {
+  opacity: unset;
 }
 
 footer {
@@ -107,9 +121,5 @@ address {
 address a {
   margin-right: 1em;
   padding: .25em;
-  text-decoration: none;
-}
-
-.github {
   text-decoration: none;
 }
