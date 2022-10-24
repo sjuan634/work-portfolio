@@ -1,12 +1,115 @@
-body {
-  background-color: aliceblue;
+:root {
+  --dark-color: #395561;
+  --light-color: #f7efea;
 }
 
-nav {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: aliceblue;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  height: 98vh;
+}
+
+header {
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--dark-color);
+  height: 8em;
+}
+
+h1 {
+  font-size: 3em;
+  padding: .25em;
+  background-color: var(--light-color);
+  color: var(--dark-color);
 }
 
 .nav-item {
-  display: inline;
+  display: inline-block;
+  margin-right: 1em;
+  padding: .25em;
+  font-size: 1.25em;
+}
+
+.banner-image {
+  width: 100%;
+  height: 10em;
+  margin-bottom: 2em;
+}
+
+div {
+  margin-bottom: 2em;
+}
+
+h2 {
+  padding: .25em;
+  width: 200px;
+}
+
+h3 {
+  padding: .25em;
+  float: ;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+.about-me {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+p {
+  padding: .25em;
+}
+
+.work {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+section {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+article {
+  margin: 0 .5em 0 0;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+}
+
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+address {
+  margin-right: 1em;
+}
+
+address a {
+  margin-right: 1em;
+  padding: .25em;
+  text-decoration: none;
+}
+
+.github {
+  text-decoration: none;
 }
