@@ -45,7 +45,15 @@ h1 {
   margin-bottom: 2em;
 }
 
-div {
+.container {
+  display: flex;
+}
+
+section {
+  border-left: solid .25em black;
+}
+
+/* div {
   margin-bottom: 2em;
 }
 
@@ -122,4 +130,4 @@ address a {
   margin-right: 1em;
   padding: .25em;
   text-decoration: none;
-}
+} */
